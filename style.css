@@ -1,0 +1,46 @@
+body{
+    background: antiquewhite;
+}
+
+header{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+nav header{
+    font-size: 24px;
+}
+
+nav li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #356969;
+    font-weight: bold;
+}
+
+code{
+    background: darkblue;
+    color: white;
+    font-family: monospace;
+}
+
+
+
+
+.container{
+    display: flex;
+    width: 900px;
+    background: white;
+    margin: auto;
+}
+
+@media all and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+}
